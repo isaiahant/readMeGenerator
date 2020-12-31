@@ -1,6 +1,6 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-# undefined
+# readMeGenerator
 ## Description
 This app is used to generate a readme.md file for projects in the console using inquirer.
 Here is a video of the app in action- https://drive.google.com/file/d/1sed6OsRHg-rEQJduhss0PhPvLrnkNbcl/view
