@@ -1,7 +1,8 @@
 const fs = require('fs')
 const inquirer = require("inquirer")
-const markdown = require("./utils/Markdown.js")
-const gl = require('./utils/License.js')
+const markdown = require("./utils/markdown.js")
+const gl = require('./utils/license.js')
+const Choices = require('inquirer/lib/objects/choices')
 
 
 
@@ -20,11 +21,6 @@ let questions = [
     type: 'input',
     name: 'installation',
     message: 'How would one go about installing your app?'
-  },
-  {
-    type:'input',
-    name: 'table of contents',
-    message: 'How would you like your table of contents to read?'
   },
   {
     type:'input',
@@ -59,7 +55,8 @@ let questions = [
   {
     type:'list',
     name:'license',
-    message: ['The MIT License', 'Apache 2.0 License', 'Boost Software License 1.0', 'GNU GPL v3', 'Mozilla Public License 2.0']
+    message:'Which license would you like to use?',
+    choices: ['The MIT License', 'Apache 2.0 License', 'Boost Software License 1.0', 'GNU GPL v3', 'Mozilla Public License 2.0']
   }
 
 ]
