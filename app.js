@@ -1,7 +1,7 @@
 const fs = require('fs')
 const inquirer = require("inquirer")
-const markdown = require("./utils/generateMarkdown.js")
-const gl = require('./utils/generateLicense.js')
+const markdown = require("./utils/Markdown.js")
+const gl = require('./utils/License.js')
 
 
 
